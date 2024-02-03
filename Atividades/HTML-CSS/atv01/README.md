@@ -1,7 +1,7 @@
 # Atividade Prática 01
 
 > - As tags de destaque são usadas para destacar termos ou trechos em um conteúdo textual
-> - Elas são ***tags samânticas***, ou seja, dão um significado ao trecho marcado
+> - Elas são ***tags semânticas***, ou seja, dão um significado ao trecho marcado
 
 ## Tags de Destaque: definição e exemplos
 
