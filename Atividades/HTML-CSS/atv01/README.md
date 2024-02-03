@@ -9,7 +9,7 @@
 > As tags de destaque são usadas para destacar termos ou trechos em um conteúdo textual.
 > Elas são ***tags semânticas***, ou seja, dão um significado ao trecho marcado.
 
-- A tag `strong` define um texto importante
+<!-- - A tag `strong` define um texto importante
     - `<strong>texto importante</strong>` => <strong>texto importante</strong>
 
 - A tag `em` define um texto enfatizado
@@ -31,7 +31,9 @@
     - `texto principal e <small>texto menor</small>` => texto principal e <small>texto menor</small>
 
 - A tag `mark` define um texto destacado
-    - `<mark>trecho destacado</mark> dentro do texto` => <mark>trecho destacado</mark> dentro do texto
+    - `<mark>trecho destacado</mark> dentro do texto` => <mark>trecho destacado</mark> dentro do texto -->
+
+![Exemplos de uso](./img-instrucoes/examples-tags-destaque.png)
 
 
 <a id="inst"></a>
