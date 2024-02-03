@@ -1,9 +1,13 @@
 # Atividade Prática 01
 
-> - As tags de destaque são usadas para destacar termos ou trechos em um conteúdo textual
-> - Elas são ***tags semânticas***, ou seja, dão um significado ao trecho marcado
+> Em nossa primeira atividade prática vamos trabalhar um pouco as tags básicas para ênfase ou destaque textual.
+> Segue abaixo uma breve [revisão](#def) sobre as tags que serão abordadas nesta atividade e, logo após, as [instruções](#inst) para a realização desta atividade.
 
+<a id="def"></a>
 ## Tags de Destaque: definição e exemplos
+
+> As tags de destaque são usadas para destacar termos ou trechos em um conteúdo textual.
+> Elas são ***tags semânticas***, ou seja, dão um significado ao trecho marcado.
 
 - A tag `strong` define um texto importante
     > `<strong>texto importante</strong>` => <strong>texto importante</strong>
@@ -30,3 +34,37 @@
     > `<mark>trecho destacado</mark> dentro do texto` => <mark>trecho destacado</mark> dentro do texto
 
 
+<a id="inst"></a>
+## Instruções para Realização da Atividade
+
+- Esta atividade tem o objetivo de exercitar o uso das tags semânticas de destaque e ênfase textual apresentadas acima e abordadas em aula;
+
+- A atividade consiste em replicar o resultado apresentado na imagem abaixo, que traz um exemplo de texto de um edital de seleção de bolsista para projeto de pesquisa;
+
+![Atividade 01](./img-instrucoes/img-atv01.png)
+
+- Como você pode perceber, o texto contém diversos destaques, desde textos inseridos ou deletados até textos subescritos. Logo, você deve usar as tags de destaque adequadas para cada situação;
+
+- O código base para esta atividade encontra-se nesta pasta, no arquivo [`index.html`](./index.html);
+
+- Envie o arquivo HTML com a resposta pelo Classroom da turma, no post feito para esta atividade; ou
+
+- Caso prefira, pode utilizar a ferramenta online CodePen, onde o código base desta atividade encontra-se neste [link](https://codepen.io/lucasifce/pen/ExMLLXN);
+
+    > Ao acessar o link da atividade no CodPen, siga as seguintes etapas:
+
+    - Faça login, caso ainda não tenha feito;
+
+    ![Login CodePen](./img-instrucoes/cap-codepen-01.png)
+
+    - Realize um *fork* do projeto (isso irá copiá-lo para sua conta);
+
+    ![Fork](./img-instrucoes/cap-codepen-02.png)
+
+    - Faça as alterações necessárias para concluir a atividade e então, copie o link de compartilhamento do seu projeto com a atividade concluída;
+
+    ![Share](./img-instrucoes/cap-codepen-03.png)
+
+    ![Link](./img-instrucoes/cap-codepen-04.jpg)
+
+    - Por fim, no classroom, entregue o link copiado como resposta da atividade.
