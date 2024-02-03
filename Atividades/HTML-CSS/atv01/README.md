@@ -33,8 +33,9 @@
 - A tag `mark` define um texto destacado
     - `<mark>trecho destacado</mark> dentro do texto` => <mark>trecho destacado</mark> dentro do texto -->
 
-![Exemplos de uso](./img-instrucoes/examples-tags-destaque.png)
-
+<div align="center">
+    <img src="./img-instrucoes/examples-tags-destaque.png">
+</div>
 
 <a id="inst"></a>
 ## Instruções para Realização da Atividade
