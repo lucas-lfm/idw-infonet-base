@@ -42,7 +42,7 @@
 - A atividade consiste em replicar o resultado apresentado na imagem abaixo, que traz um exemplo de texto de um edital de seleção de bolsista para projeto de pesquisa;
 
 <div align="center">
-    <img src="./img-instrucoes/img-atv01.png" width="80%">
+    <img src="./img-instrucoes/img-atv01.png">
 </div>
 
 - Como você pode perceber, o texto contém diversos destaques, desde textos inseridos ou deletados até textos subescritos. Logo, você deve usar as tags de destaque adequadas para cada situação;
@@ -57,23 +57,23 @@
     >> - Faça login, caso ainda não tenha feito;
     >
     > <br><div align="center">
-    >    <img src="./img-instrucoes/cap-codepen-01.png" width="40%">
+    >    <img src="./img-instrucoes/cap-codepen-01.png">
     > </div><br>
     >
     >> - Realize um *fork* do projeto (isso irá copiá-lo para sua conta);
     >
     ><br><div align="center">
-    >    <img src="./img-instrucoes/cap-codepen-02.png" width="40%">
+    >    <img src="./img-instrucoes/cap-codepen-02.png">
     ></div><br>
     >
     >> - Faça as alterações necessárias para concluir a atividade e então, copie o link de compartilhamento do seu projeto com a atividade concluída;
     >
     ><br><div align="center">
-    >    <img src="./img-instrucoes/cap-codepen-03.png" width="40%">
+    >    <img src="./img-instrucoes/cap-codepen-03.png">
     ></div>
     >
     ><div align="center">
-    >    <img src="./img-instrucoes/cap-codepen-04.jpg" width="40%">
+    >    <img src="./img-instrucoes/cap-codepen-04.jpg" width="70%">
     ></div><br>
     >
     > - Por fim, no classroom, entregue o link copiado como resposta da atividade.<br><br>
