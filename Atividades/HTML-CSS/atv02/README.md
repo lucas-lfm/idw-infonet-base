@@ -23,11 +23,11 @@
     <img src="./img-instrucoes/img-atv02.png">
 </div>
 
-- O seu nome deve ser o primeiro consteúdo da página, sendo um título de nível 1.
+- O seu nome deve ser o primeiro conteúdo da página, sendo um título de nível 1.
 
-- Os subtítulos deguintes devem ser definidos usando a tag de título de nível mais adequada.
+- Os subtítulos seguintes devem ser definidos usando a tag de título de nível mais adequada.
 
-- O menu de navegação é compostos por links internos que levam a cada seção da página.
+- O menu de navegação é composto por links internos que levam a cada seção da página.
 
 - Na seção "Disciplinas" complete a lista com todas as disciplinas que está cursando no semestre atual, deixando destacada a disciplina de Web Design.
 
@@ -39,7 +39,7 @@
     <img src="./img-instrucoes/img-atv02-1.png" width="80%">
 </div>
 
-- Perceba que os termos que exemplificam tags HTML possuem o trecho da tag formadato em uma fonte monoespaçada, como em `<html></html>`.
+- Perceba que os termos que exemplificam tags HTML possuem o trecho da tag formatado em uma fonte monoespaçada, como em `<html></html>`.
 
 - Utilize o site [Emojipedia](https://emojipedia.org/) para procurar o código dos Emojis e inserir na sua página HTML.
     
@@ -55,4 +55,4 @@
 
     - https://developer.mozilla.org/pt-BR/
 
-- Esta atividade não possui código base, você deve começar do zero. Use o [CodePen](https://codepen.io/), salvando a resposta em sua conta e enviando o link pelo Classroom, como feito na atividade passada.
+- Esta atividade não possui código base, você deve **começar do zero**. Use o [CodePen](https://codepen.io/), salvando a resposta em sua conta e enviando o link pelo Classroom, como feito na atividade passada.
