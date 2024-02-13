@@ -1,82 +1,58 @@
-# Atividade Prática 02
+# Atividade Prática 02: Tags Básicas
 
-> Em nossa primeira atividade prática vamos trabalhar um pouco as tags básicas para ênfase ou destaque textual.
-> Segue abaixo uma breve [revisão](#def) sobre as tags que serão abordadas nesta atividade e, logo após, as [instruções](#inst) para sua realização.
+> Nesta atividade vamos trabalhar de forma mais completa, algumas das tags básicas que aprendemos até aqui. Relembrando:
+> - ***Tags de título***: `h1` a `h6`
+> - ***Tags de ênfase e destaque***: `strong`, `em`, `ins`, `del`, `sup`, `sub`, `small`, `mark`
+> - ***Tag de parágrafo***: `p`
+> - ***Tag de link***: `a`
+> - ***Tags básicas sem fechamento***: `br` e `hr`
+> - ***Tags de formatação textual simples***: `b`, `i`, `u`, `s`
+> - ***Tags de listas***: `ul`, `ol`, `dl`
+> - ***Tópicos extras***: tag `code`, atributo `title`, símbolos especiais e emojis
 
-<a id="def"></a>
-## Tags de Destaque: definição e exemplos
-
-> As tags de destaque são usadas para destacar termos ou trechos em um conteúdo textual.
-> Elas são ***tags semânticas***, ou seja, dão um significado ao trecho marcado.
-
-<!-- - A tag `strong` define um texto importante
-    - `<strong>texto importante</strong>` => <strong>texto importante</strong>
-
-- A tag `em` define um texto enfatizado
-    - `<em>texto enfatizado</em>` => <em>texto enfatizado</em>
-
-- A tag `ins` define um texto inserido em relação a uma versão anterior do conteúdo
-    - `<ins>texto inserido</ins>` => <ins>texto inserido</ins>
-
-- A tag `del` define um texto excluído em relação a uma versão anterior do conteúdo
-    - `<del>texto excluído</del>` => <del>texto excluído</del>
-
-- A tag `sup` define um texto sobrescrito, inserido um pouco acima do alinhamento vertical do texto principal
-    - `Web<sup>[1]</sup>` => Web<sup>[1]</sup>
-
-- A tag `sub` define um texto subescrito, inserido um pouco abaixo do alinhamento vertical do texto principal
-    - `H<sub>2</sub>O` => H<sub>2</sub>O
-
-- A tag `small` define um texto de tamanho menor em relação ao texto principal
-    - `texto principal e <small>texto menor</small>` => texto principal e <small>texto menor</small>
-
-- A tag `mark` define um texto destacado
-    - `<mark>trecho destacado</mark> dentro do texto` => <mark>trecho destacado</mark> dentro do texto -->
-
-<div align="center">
-    <img src="./img-instrucoes/examples-tags-destaque.png">
-</div>
+[Acesse aqui](./../../../materiais/WEB-02-HTML-INTRO.pdf) o material trabalhado em aula para revisar as tags acima.
 
 <a id="inst"></a>
 ## Instruções para Realização da Atividade
 
-- Esta atividade tem o objetivo de exercitar o uso das tags semânticas de destaque e ênfase textual apresentadas acima e abordadas em aula;
+- Esta atividade tem o objetivo de exercitar o uso das tags básicas trabalhadas em aula;
 
-- A atividade consiste em replicar o resultado apresentado na imagem abaixo, que traz um exemplo de texto de um edital de seleção de bolsista para projeto de pesquisa;
+- A atividade consiste em replicar o resultado apresentado na imagem abaixo, que traz um exemplo de página pessoal para organização dos estudos;
 
 <div align="center">
-    <img src="./img-instrucoes/img-atv01.png">
+    <img src="./img-instrucoes/img-atv02.png">
 </div>
 
-- Como você pode perceber, o texto contém diversos destaques, desde textos inseridos ou deletados até textos subescritos. Logo, você deve usar as tags de destaque adequadas para cada situação;
+- O seu nome deve ser o primeiro consteúdo da página, sendo um título de nível 1.
 
-- O código base para esta atividade encontra-se nesta pasta, no arquivo [`index.html`](./index.html);
+- Os subtítulos deguintes devem ser definidos usando a tag de título de nível mais adequada.
 
-- Envie o arquivo HTML com a resposta pelo Classroom da turma, no post feito para esta atividade; ou
+- O menu de navegação é compostos por links internos que levam a cada seção da página.
 
-- Caso prefira, pode utilizar a ferramenta online CodePen, onde o código base desta atividade encontra-se neste [link](https://codepen.io/lucasifce/pen/ExMLLXN);
+- Na seção "Disciplinas" complete a lista com todas as disciplinas que está cursando no semestre atual, deixando destacada a disciplina de Web Design.
 
-    > Ao acessar o link da atividade no CodPen, siga as seguintes etapas:
-    >> - Faça login, caso ainda não tenha feito;
-    >
-    > <br><div align="center">
-    >    <img src="./img-instrucoes/cap-codepen-01.png">
-    > </div><br>
-    >
-    >> - Realize um *fork* do projeto (isso irá copiá-lo para sua conta);
-    >
-    ><br><div align="center">
-    >    <img src="./img-instrucoes/cap-codepen-02.png">
-    ></div><br>
-    >
-    >> - Faça as alterações necessárias para concluir a atividade e então, copie o link de compartilhamento do seu projeto com a atividade concluída;
-    >
-    ><br><div align="center">
-    >    <img src="./img-instrucoes/cap-codepen-03.png">
-    ></div>
-    >
-    ><div align="center">
-    >    <img src="./img-instrucoes/cap-codepen-04.jpg" width="70%">
-    ></div><br>
-    >
-    > - Por fim, no classroom, entregue o link copiado como resposta da atividade.<br><br>
+- Na seção "O que aprendemos até aqui em Web Design" complete a lista com a maior quantidade possível de items listados com relação ao conteúdo estudado na disciplina.
+
+- Além disso, defina para algums termos uma explicação extra que deve ser apresentada ao passar o mouse por cima do texto, como a seguir:
+
+<div align="center">
+    <img src="./img-instrucoes/img-atv02-1.png" width="80%">
+</div>
+
+- Perceba que os termos que exemplificam tags HTML possuem o trecho da tag formadato em uma fonte monoespaçada, como em `<html></html>`.
+
+- Utilize o site [Emojipedia](https://emojipedia.org/) para procurar o código dos Emojis e inserir na sua página HTML.
+    
+    - Sinta-se livre para usar outros emojis, porém é obrigatório usar os códigos hexadecimais (não somente copiar e colar).
+
+- Na seção "Links Úteis" foram usados os seguintes links (fique à vontade para inserir outros links relacionados à disciplina):
+
+    - https://github.com/lucas-lfm/wbds-infonet-base
+
+    - https://codepen.io/
+
+    - https://www.w3schools.com/
+
+    - https://developer.mozilla.org/pt-BR/
+
+- Esta atividade não possui código base, você deve começar do zero. Use o [CodePen](https://codepen.io/), salvando a resposta em sua conta e enviando o link pelo Classroom, como feito na atividade passada.
