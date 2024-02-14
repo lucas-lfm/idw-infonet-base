@@ -10,14 +10,14 @@
 > - ***Tags de listas***: `ul`, `ol`, `dl`
 > - ***Tópicos extras***: tag `code`, atributo `title`, símbolos especiais e emojis
 
-[Acesse aqui](./../../../materiais/WEB-02-HTML-INTRO.pdf) o material trabalhado em aula para revisar as tags acima.
+[Acesse aqui](./../../../materiais/slides/WEB-01_Introducao-web.pdf) o material trabalhado em aula para revisar as tags acima.
 
 <a id="inst"></a>
 ## Instruções para Realização da Atividade
 
-- Esta atividade tem o objetivo de exercitar o uso das tags básicas trabalhadas em aula;
+- Esta atividade tem o objetivo de exercitar o uso das tags básicas trabalhadas em aula.
 
-- A atividade consiste em replicar o resultado apresentado na imagem abaixo, que traz um exemplo de página pessoal para organização dos estudos;
+- A atividade consiste em replicar o resultado apresentado na imagem abaixo, que traz um exemplo de página pessoal para organização dos estudos.
 
 <div align="center">
     <img src="./img-instrucoes/img-atv02.png">
