@@ -2,7 +2,7 @@
 
 > Nesta atividade vamos trabalhar os conceitos básicos de aplicação de CSS em páginas Web
 
-[Acesse aqui](./../../../exemplos/HTML-CSS/ex05/) o exemplo trabalhado em aula sobre CSS básico.
+[Acesse aqui](./../../../Exemplos/HTML-CSS/ex06/) o exemplo trabalhado em aula sobre CSS básico.
 [Acese aqui](https://classroom.google.com/c/NjU1Mjk5ODUyMjY3/m/NjY2MTAyMTE5MzM1/details) o material complementar sobre CSS.
 
 <a id="inst"></a>
