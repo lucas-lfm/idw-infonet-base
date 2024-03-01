@@ -1,4 +1,4 @@
-# 🌐 Web Design
+<h1 align="center">🌐 Web Design</h1>
 > 📌 Repositório para códigos e materiais utilizados na disciplina de Web Design
 
 ## 🔎 Neste repositório você pode encontrar:
