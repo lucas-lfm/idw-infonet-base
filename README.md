@@ -13,7 +13,7 @@
 ### Repositórios de práticas da disciplina:
   
   - Repositório da disciplina no GitHub: https://github.com/lucas-lfm/wbds-infonet-base
-  - CodePen: https://codepen.io/collection/kNVxeQ
+  - Coleção de práticas no CodePen: https://codepen.io/collection/kNVxeQ
 
 ### Referências e Documentações:
 
