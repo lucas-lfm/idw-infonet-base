@@ -1,6 +1,6 @@
 <h1 align="center">🌐 Web Design</h1>
 
-> 📌 Repositório para códigos e materiais utilizados na disciplina de Web Design
+> 📌 Repositório para códigos e materiais utilizados na disciplina de Web Design, do curso Técnico Subsequente em Informática para Internet do IFCE - *Campus* Tauá.
 
 <hr>
 
