@@ -2,9 +2,9 @@
 
 > Esta atividade tem como objetivo integrar os conhecimentos adiquiridos até aqui na disciplina de Web Design
 
-[Acesse aqui](./../../../materiais/slides/WEB-03-CSS_INTRO.pdf) o material sobre introdução ao CSS e tipografia para Web.
-[Acesse aqui](./../../../materiais/slides/WEB-04-avancando-html) o material sobre elementos inline e block, e HTML semântico.
-[Acesse aqui](https://classroom.google.com/c/NjU1Mjk5ODUyMjY3/m/NjY2MTAyMTE5MzM1/details) o material complementar sobre CSS e HTML.
+- [Acesse aqui](./../../../materiais/slides/WEB-03-CSS_INTRO.pdf) o material sobre introdução ao CSS e tipografia para Web.
+- [Acesse aqui](./../../../materiais/slides/WEB-04-avancando-html) o material sobre elementos inline e block, e HTML semântico.
+- [Acesse aqui](https://classroom.google.com/c/NjU1Mjk5ODUyMjY3/m/NjY2MTAyMTE5MzM1/details) o material complementar sobre CSS e HTML.
 
 ## Requisitos e Instruções para Realização da Atividade
 
