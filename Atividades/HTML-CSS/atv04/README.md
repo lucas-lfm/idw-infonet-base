@@ -10,7 +10,7 @@
 
 - Esta atividade tem como objetivo integrar diversos conhecimentos adiquiridos até aqui na disciplina de Web Design, como: HTML básico, HTML semântico, imagens e tabelas, elementos inline e block, CSS básico e tipografia.
 
-- A atividade consiste em aplicar regras CSS, aprendidas em aula (cores, espaçamentos, bordas, tipografia), na página criada na [atividade 02](./../atv03/), adicionando também imagens e tabelas. O resultado deve ficar semelhante ao apresentado na imagem a seguir:
+- A atividade consiste em aplicar regras CSS, aprendidas em aula (cores, espaçamentos, bordas, tipografia), na página criada na [atividade 02](./../atv02/) e modificada na [atividade 03](./../atv03/), adicionando também imagens, tabelas e HTML semântico. O resultado deve ficar semelhante ao apresentado na imagem a seguir:
 
 <div align="center">
     <img src="./img-instrucoes/resultado.png">
