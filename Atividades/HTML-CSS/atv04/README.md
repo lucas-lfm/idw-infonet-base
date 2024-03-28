@@ -30,11 +30,11 @@
     - (**1 score**) Adicione uma seção na página para organizar os horários de aula do curso em uma tabela. Estilizem a tabela de modo a destacar as células de cabeçalho/separação (como mostrado no exemplo);
     - (**1 score**) O código deve estar bem formatado/organizado e com comentários;
     - (**1 score**) Deve ser utilizado CSS externo;
-    - (**1 score**) Mantenha um bom contraste visual e uma combinação hamônica entre as cores escolhidas;
+    - (**1 score**) Mantenha um bom contraste visual e uma combinação harmônica entre as cores escolhidas;
     - (**3 scores**) O código final deve ser postado em seu GitHub.
 
 - **Instruções e dicas:**
-    - Sintam-se livres para utilizar outras cores, porém tentem manter um bom contraste visual e uma combinação hamônica entre as cores escolhidas. Utilizem o site [CorHexa](https://corhexa.com/verificador-contraste) para fazer a verificação de contraste e o site [Coolors.co](https://coolors.co/) para se inspirar ao escolher as cores a serem aplicadas;
+    - Sintam-se livres para utilizar outras cores, porém tentem manter um bom contraste visual e uma combinação harmônica entre as cores escolhidas. Utilizem o site [CorHexa](https://corhexa.com/verificador-contraste) para fazer a verificação de contraste e o site [Coolors.co](https://coolors.co/) para se inspirar ao escolher as cores a serem aplicadas;
     - Para consultar fontes externas, utilize o site [Google Fonts](https://fonts.google.com/);
     - Para aplicar espaçamentos, utilize as propriedades CSS `padding` (espaçamento interno) e `margin` (espaçamento externo);
     - Bordas arredondadas pode ser definidas com a propriedade `border-radius`.
