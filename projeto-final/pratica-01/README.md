@@ -70,7 +70,7 @@
             <img src="recursos/patas.svg">
           </div>
 
-1. Ao final desses pasos, o código do arquivo `index.html` deve estar da seguinte maneira:
+1. Ao final desses passos, o código do arquivo `index.html` deve estar da seguinte maneira:
 
     ```html
     <!DOCTYPE html>
@@ -93,7 +93,7 @@
 1. Agora, vamos definir a estrutura inicial da nossa página dentro da seção `body` do documento
 
     - Defina um elemento `header` (cabeçalho) e um elemento `main` diretamente dentro da tag `body`.
-    - Dentro do elemento `header` define um elemento `nav` com 5 (cinco) links de navegação (elementos `a`), como a seguir:
+    - Dentro do elemento `header` defina um elemento `nav` com 5 (cinco) links de navegação (elementos `a`), como a seguir:
 
         ```html
         <header>
@@ -110,9 +110,9 @@
         ```
     - Perceba que dentro do primeiro link, colocamos uma imagem com o logotipo da PetLife:
 
-    <div style="width: 20%; text-align: center;">
-      <img src="recursos/logo-white.svg">
-    </div>
+      <div style="width: 20%; text-align: center; padding: 20px; border-radius: 4px; background-color: #363636;">
+        <img src="recursos/logo-white.svg">
+      </div>
     
     - Os demais links estão referenciando a seção de início e outros elementos que existirão em nossa página (serão construídos nas próximas práticas).
 
@@ -120,9 +120,9 @@
 
     - Dentro da `section` criada anteriormente, vamos definir uma div para ser o container do conteúdo dessa seção.
 
-    - Dentro da div criada anteriormente, defina a estrutura interna do conteúdo: uma imagem e uma outra div para organizar os textos com os botões de ação. O
+    - Dentro da div criada anteriormente, defina a estrutura interna do conteúdo: uma imagem e uma outra div para organizar os textos com os botões de ação.
     
-    - código dentro do elemento `main` deve ficar da seguinte maneira:
+    - O código dentro do elemento `main` deve ficar da seguinte maneira:
 
       ```html
       <main>
@@ -148,7 +148,7 @@
     - Explicando melhor:
 
         - Dentro da seção hero, temos uma `div` container para todo o conteúdo interno (no CSS vamos estilizar ela de forma a criar uma largura máxima para o conteúdo).
-        - Na imagem, usamos o atributo `loading` com o valor `lazy` para dizer que o navegador só precisa carregar a imagem que estiver fora da tela quando o usuário rolar a página até perto dela. Veja mais [aqui](https://desenvolvimentoparaweb.com/html/lazy-loading-nativo-imagem-iframe/).
+        - Na imagem, usamos o atributo `loading` com o valor `lazy` para dizer que o navegador só precisa carregar a imagem, que estiver fora da tela, quando o usuário rolar a página até perto dela. Veja mais [aqui](https://desenvolvimentoparaweb.com/html/lazy-loading-nativo-imagem-iframe/).
         - Logo abaixo, definimos uma div com a classe `content-text` para agrupar os elementos textuais e os botões que devem aparecer ao lado da imagem. Essa classe será usada mais adiante para estilizar esse elemento.
         - Dentro da div `content-text` definimos o título e o parágrafo textual e os dois links que serão estilizados como botões (por isso a classe `btn` aplicada a eles).
         - O primeiro link está direcionando o usuário para o WhatsApp (usando um número fictício) e o segundo link direciona para a seção sobre a clínica (que será implementada nas próximas práticas).
@@ -162,13 +162,13 @@
 
 ### 4. CSS Global
 
-> Vamos definir as regras CSS globais do nosso site (estilizações globais, aplicadas à todas as páginas).
+> Vamos definir as regras CSS globais do nosso site (estilizações globais, aplicadas a todas as páginas).
 
 1. Crie um arquivo css chamado `style.css` dentro da pasta `css` do projeto.
 
 1. Para não esquecer, vá ao arquivo `index.html` e referencie o arquivo css através da tag `link` dentro da seção `head`, adicionando a seguinte linha: `<link rel="stylesheet" href="./css/style.css">`
 
-1. Voltando para o arquivo `style.css` adicione a importação de da fonte `Montserrat` a partir do Google Fonts, com a seguinte linha de código: `@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');`
+1. Voltando para o arquivo `style.css` adicione a importação da fonte `Montserrat` a partir do Google Fonts, com a seguinte linha de código: `@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');`
     - Essa deve ser a primeira linha de código do arquivo `style.css`
 
 1. Agora, vamos definir variáveis globais para organizar melhor nosso código e nos possibilitar maior consistência em relação aos valores utilizados (cores e espaçamentos, por exemplo). Para isso, vamos selecionar a pseudo-classe `:root`, adicionando as seguindes propriedades:
@@ -184,8 +184,8 @@
     }
     ```
     - O código acima cria diversas variáveis com valores predefinidos que poderemos utilizar sempre que necessário. Você pode dar qualquer nome às variáveis criadas, mas precisamos seguir esse padrão (iniciando com `--`e dando um nome que represente bem o que é aquele valor). 
-    - Por exemplo, criamos a variável `--primary-color` para definir a cor primária da nossa aplicação (a cor utilizada para chama atenção do usuário e para expressar a marca da empresa). 
-    - Sempre que quisermos definir a cor de um determinado elemento para a cor primária, vamos referenciar essa variável e não o valor diretamente. Isso é útil, pois se ressolvermos mudar a cor primária, não precisaremos alterar o código de todos os elementos de tem a definição dessa cor. Saiba mais sobre o variáveis globais [neste link](https://www.alura.com.br/artigos/construa-css-magico-variaveis-nativas).
+    - Por exemplo, criamos a variável `--primary-color` para definir a cor primária da nossa aplicação (a cor utilizada para chamar a atenção do usuário e para expressar a marca da empresa). 
+    - Sempre que quisermos definir a cor de um determinado elemento com a cor primária, vamos referenciar essa variável e não o valor diretamente. Isso é útil, pois se ressolvermos mudar a cor primária, não precisaremos alterar o código de todos os elementos que tem a definição dessa cor. Saiba mais sobre variáveis globais [neste link](https://www.alura.com.br/artigos/construa-css-magico-variaveis-nativas).
 
 1. Vamos definir o modo de dimensionamento dos elementos para considerar *padding* e borda com a propriedade `box-sizing`, em todos os elementos (com o seletor universal `*`), da seguinte maneira: 
 
@@ -337,7 +337,7 @@
 > Agora vamos definir as regras CSS aplicadas à barra de navegação do site.
 
 1. Crie um outro arquivo na pasta `css` com o nome de `navbar.css`.
-  - É uma boa prática separar nossas regas de estilo por cada componente principal do nosso site.
+    - É uma boa prática separar nossas regras de estilo por cada componente principal do nosso site.
 
 1. Novamente, volte ao arquivo `index.html` e referencie, na seção `head`, o arquivo css criado no passo anterior: `<link rel="stylesheet" href="./css/navbar.css">`
 
@@ -405,7 +405,7 @@
     - Vamos lá, deixe-me explicar... 👇
       - Primeiro nós selecionamos os elementos `a`, com o estado `:hover`, que estão dentro do elemento de classe `.top-nav`. Até aqui, nada de novidade!
       - A porção final é novidade: `:not(.brand-link)`
-      - A pseudo-classe `:not()` é uma ***notação funcional*** de ***negação***. Ela é usada para selecionar um elemento que **não é representado** pelo seu argumento (o que vai dentro do parênteses).
+      - A pseudo-classe `:not()` é uma ***notação funcional*** de ***negação***. Ela é usada para selecionar um elemento que **não é representado** pelo seu argumento (o que vai dentro dos parênteses).
       - Nesse exemplo, `a:hover:not(.brand-link)`, estamos selecionando elementos `a` com estado `:hover` que ***não contenham*** a classe `brand-link`. Ou seja, qualquer um dos links da barra de navegação, ***EXCETO o link que tem a classe .brand-link: o link com o logo da PetLife***
 
 1. O código final do arquivo `navbar.css` deve ficar assim:
@@ -472,7 +472,7 @@
 
 ### 7. Animação aplicada à seção Hero
 
-> Galera, chegou a parte mais ***TOP*** da prática! Vamos trabalhar com animações em CSS. Na nossa prática a animação vai consistir em fazer o gradiente que nós aplicamos no backgorund da seção hero ficar mudando de posição infinitamente. Confia em mim... vai ficar um efeito bem legal.
+> Galera, chegou a parte mais ***TOP*** da prática 😎! Vamos trabalhar com animações em CSS ✨. Na nossa prática a animação vai consistir em fazer o gradiente que nós aplicamos no backgorund da seção hero ficar mudando de posição infinitamente. Confia em mim... vai ficar um efeito bem legal.
 
 1. Antes de mais nada, é importante conceituar o assunto `animações CSS`. O CSS permite definir animações automáticas para elementos da página, fazendo com que os elementos mudem seu estado de estático para dinâmico, de forma automática e abrindo diversas possibilidades de efeitos visuais incríveis.
 
@@ -505,7 +505,7 @@
     }
     ```
 
-    - Perceba que damos um nome para esse **keyframe**. Chamamos nossa animação de `hero-gradient`.
+    - Perceba que demos um nome para esse **keyframe**. Chamamos nossa animação de `hero-gradient`.
 
 1. Agora precisamos voltar lá no início do arquivo `home.css`, no seletor da seção hero e usar a propriedade `animation` para definir qual animação queremos e quais as características dela. O código deve ficar assim:
 
