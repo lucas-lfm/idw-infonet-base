@@ -66,9 +66,9 @@
 
 1. Ainda na seção `head`, vamos definir o ícone da nossa página (que aparecerá na aba do navegador ao lado do título) com a tag `link`, da seguinte maneira: `<link rel="shortcut icon" href="./img/patas.svg" type="image/x-icon">`
     - no atributo `href` indicamos a localização do arquivo de ícone que vamos utilizar: a imagem `patas.svg` 👇
-          <div style="width: 10%; text-align: center;">
-            <img src="recursos/patas.svg" style="width: 100%">
-          </div>
+        <div style="width: 10%; text-align: center;">
+          <img src="recursos/patas.svg" style="width: 100%">
+        </div>
 
 1. Ao final desses passos, o código do arquivo `index.html` deve estar da seguinte maneira:
 
