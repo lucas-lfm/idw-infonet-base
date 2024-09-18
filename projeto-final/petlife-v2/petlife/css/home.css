@@ -1,0 +1,141 @@
+section .container-limiter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+section img {
+  width: 500px;
+}
+
+section .content-text {
+  width: 50%;
+}
+
+.hero-section {
+  background-size: 200% 200%;
+  background-image: linear-gradient(
+      to bottom,
+      #fcfcfc00,
+      #fcfcfc55,
+      #fcfcfcaa,
+      #fcfcfcff
+    ),
+    radial-gradient(circle at 10%, #ff725e, transparent);
+  animation: 4s linear infinite alternate hero-gradient;
+}
+
+.hero-section h1 {
+  margin-top: 0;
+}
+
+.hero-section .btn {
+  margin-bottom: 0.5rem;
+}
+
+.clinica-section .content-text {
+  order: -1;
+}
+
+.clinica-section .servicos li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.clinica-section .servicos li::before {
+  content: "\2705";
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.farmacia-section .container-limiter {
+  flex-direction: column;
+}
+
+.farmacia-section .content-text {
+  text-align: center;
+  width: 80%;
+}
+
+/* seção de dúvidas */
+
+.duvidas-section .container-limiter {
+    align-items: flex-start;
+}
+
+.duvidas-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.duvida {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.duvida h3,
+.duvida p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.duvida-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  padding: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.duvida-title img {
+  width: 16px;
+}
+
+.duvida-title:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--primary-color) 0%,
+    transparent 75%
+  );
+}
+
+.resposta {
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.duvida.ativa .resposta {
+    padding: 16px;
+    height: fit-content;
+    opacity: 1;
+}
+
+@keyframes hero-gradient {
+  0% {
+    background-position: 0% 25%;
+  }
+
+  25% {
+    background-position: 50% 50%;
+  }
+
+  50% {
+    background-position: 100% 75%;
+  }
+
+  75% {
+    background-position: 50% 50%;
+  }
+
+  100% {
+    background-position: 0% 25%;
+  }
+}

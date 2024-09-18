@@ -1,0 +1,25 @@
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    align-items: center;
+    height: 100%;
+}
+
+.brand-link {
+    margin-right: auto;
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+    text-underline-offset: 4px;
+    transition: all 0.3s;
+}
+
+.top-nav a:hover:not(.brand-link) {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}

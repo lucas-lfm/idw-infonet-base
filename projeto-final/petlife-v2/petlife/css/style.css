@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --primary-color: #ff725e;
+    --text-color: #263138;
+    --line-height: 1.5;
+    --margin-text: 2rem;
+    --max-width-container: 1200px;
+    --primary-color-hover: #ff4128;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+body > * {
+    width: 100%;
+}
+
+header {
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    height: 4rem;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+.container-limiter {
+    max-width: var(--max-width-container);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: var(--margin-text);
+}
+
+p {
+    line-height: var(--line-height);
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.btn-transparent:hover {
+    background-color: #fff;
+}
+
+section {
+    padding-top: 4rem;
+}
